@@ -7,22 +7,26 @@
     <script src="myScript.js"></script>
 </head>
 <body>
+    <h1>1.</h1>
     <button type="button" onclick="firstTest()">Click me</button>
         <p id="test1">1. Test</p>
     <p style="border-bottom: 2px solid;"></p>
 
+    <h1>2.</h1>
     <p>How much is 5+6?</p>
         <button type="button" onclick="alertMathAddition()">Show in alert!</button>
     <p style="border-bottom: 2px solid;"></p>
     
-    <p>What time it is?</br>1.Show below button</p>
-        <button type="button" onclick="time()">Press to show time</button>
-        <p id="time"></p>
-            <p style="border-bottom: 1px ridge;"></p>
-    <p>Show inside button</p>
-        <button type="button" onclick="this.innerHTML = Date()">Click me</button>
-    <p style="border-bottom: 2px solid;"></p>
-
+    <div id="groupControl">
+        <h1>3.</h1>
+        <p>What time it is?</br>1.Show below button</p>
+            <button type="button" onclick="time()">Press to show time</button>
+            <p id="time"></p>
+                <p style="border-bottom: 1px ridge;"></p>
+        <p>Show inside button</p>
+            <button type="button" onclick="this.innerHTML = Date()">Click me</button>
+        <p style="border-bottom: 2px solid;"></p>
+    </div>
     
 </body>
 </html>
