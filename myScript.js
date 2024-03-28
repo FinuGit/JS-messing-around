@@ -6,5 +6,10 @@ function alertMathAddition(){
     alert(x + y);
 }
 function time(){
-    document.getElementById("time").innerHTML=Date();
+    document.getElementById("time").innerHTML = Date();
+}
+function charAt(){
+    let x = 12;
+    let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    document.getElementById("getChar").innerHTML = text.charAt(x);
 }
