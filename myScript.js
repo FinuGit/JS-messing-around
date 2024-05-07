@@ -10,10 +10,11 @@ function time(){
 }
 function charAt(){
     let x = 12;
+    let y = 7;
     let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    document.getElementById("getChar").innerHTML = text.charAt(x);
+    document.getElementById("getChar").innerHTML = text.charAt(x,y);
 }
-function shout(){
+function shout(){ /*show in caps lock*/
     let text = document.getElementById("hello").innerHTML;
     document.getElementById("hello").innerHTML = text.toLocaleUpperCase();
 }
@@ -29,12 +30,16 @@ let humanDogRatio = 7;
 let myDogAge = myAge * humanDogRatio;
 console.log(myDogAge);*/
 
-let countEl = document.getElementById("countClicks");
-console.log(countEl);
+let countElement = document.getElementById("countClicks");
+console.log(countElement);
 
 let count = 0
 
 function increment() {
     count = count + 1;
-    countEl.innerText = count;
+    countElement.innerText = count;
+}
+
+function answer(){
+    document.getElementById("answer1").innerHTML
 }

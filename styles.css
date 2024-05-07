@@ -4,3 +4,9 @@ li{
 li div {
     font-size: 0.5em;
 }
+.xxSmallFont:hover{
+    font-size: xx-small;
+}
+.xxLargeFont:hover{
+    font-size: xx-large;
+}

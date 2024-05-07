@@ -43,16 +43,23 @@
         </div></li>
         
         <li><div>
-            <p>Testing some numbers out</p>
-            <p id="small"></p>
-            <p id="medium"></p>
-            <p id="large"></p>
+            <p>Testing some numbers out on hover</p>
+            <p><span class="xxSmallFont">1</span> - small</p>
+            <p><span class="mediumFont">2</span> - medium</p>
+            <p><span class="xxLargeFont">3</span> - large</p>
         </div></li>
 
         <li><div>
             <h3>Number of clicks:</h3>
             <p id="countClicks">0</p>
-            <button type="button" onclick="increment()" id="increment-btn">Press me to increase the number</button>
+            <button type="button" onclick="increment()" id="incrementButton">Press me to increase the number</button>
+        </div></li>
+
+        <li><div>
+            <h3 id="titleAnswers">Testing String charAt()</h3>
+            <p>8. letter?</p>
+            <button type="button" onclick="answer()">Show answer</button>
+            <p id="getChar"></p>
         </div></li>
     </ol>
     
